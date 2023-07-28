@@ -1,0 +1,152 @@
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#name{
+    font-size: 4rem;
+    height: 30vh;
+}
+
+.circular--portrait {
+    width: 200px;
+    height: 200px; 
+    overflow: hidden; 
+    border-radius: 50%;
+    /* position: relative;
+    left:6px */
+}
+    
+.circular--portrait img { 
+width: 100%;
+height: auto;
+
+}
+#footerDivPar{
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0px;
+
+}
+#footerDiv1{
+position: relative;
+}
+
+
+#gridContainerHeader{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+}
+#gridContainerBody{
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    grid-gap: 0px;
+}
+
+#leftDiv{
+    background-color: rgb(231, 229, 229);
+    height: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 16px;
+}
+
+#rightDiv{
+    background-color: white;
+    height: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 16px;
+}
+
+#idiomasParDiv{
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    grid-gap: 0px;
+}
+#idiomasLeftDiv{
+    position: relative;
+    top:0px;
+    left: 0px;
+}
+#idiomasRightDiv{
+    position: relative;
+    top:8px;
+    left: 16px;
+}
+#idiomaLev1{
+    position:absolute;
+    top:-2px;
+    width: 100%;
+    height: 30px;
+    
+}
+#flagIta{
+    width:100%;
+    height: 30px;
+    opacity: 70%;
+}
+
+
+#idiomaLev2{
+    position:absolute;
+    top:36px;
+    width: 100%;
+    height: 30px;
+}
+#flagUk{
+    width:100%;
+    height: 30px;
+    opacity: 70%;
+
+}
+
+#idiomaLev3{
+    position:absolute;
+    top:76px;
+    width: 100%;
+    height: 30px;
+    background-color: lightgrey;
+
+}
+#flagEc{
+    width:90%;
+    height: 30px;
+    opacity: 70%;
+
+}
+#idiomaLev4{
+    position:absolute;
+    top:114px;
+    width: 100%;
+    height: 30px;
+    background-color: lightgrey;
+}
+#flagGe{
+    width:60%;
+    height: 30px;
+    opacity: 70%;
+
+}
+
+h2{
+    font-size: 24px;
+    font-weight: bolder;
+    color: black;
+    margin-top: 60px;
+}
+
+u{
+    list-style-type: none;
+
+}
+h4{
+    position: relative;
+    margin-top: -8px;
+}
+
+h3{
+    position: relative;
+    margin-top: 16px;
+}
